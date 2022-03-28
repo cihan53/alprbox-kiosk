@@ -1,4 +1,4 @@
-name: electron-kiosk-c20
+name: alprbox-kiosk
 version: '0.1.1'
 summary: Electron based kiosk browser
 description: |
@@ -32,7 +32,7 @@ architectures:
   - build-on: arm64
 
 apps:
-  electron-kiosk-c20:
+  alprbox-kiosk:
     daemon: simple
     restart-condition: always
     extensions: [ gnome-3-38 ]
