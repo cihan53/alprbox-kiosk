@@ -1,5 +1,5 @@
 name: electron-kiosk-c20
-version: '0.1'
+version: '0.1.1'
 summary: Electron based kiosk browser
 description: |
   A simple Electron Kiosk app that acts as a fullscreen browser
@@ -28,7 +28,7 @@ compression: lzo
 
 architectures:
 #  - build-on: amd64
-  - build-on: armhf
+#  - build-on: armhf
   - build-on: arm64
 
 apps:

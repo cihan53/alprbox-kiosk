@@ -1,5 +1,5 @@
 #! /bin/sh
 
-[ -n "$(snapctl get url)" ] || snapctl set url="https://www.electronjs.org/"
+[ -n "$(snapctl get url)" ] || snapctl set url="https://my.alprbox.com/"
 
 snapctl restart $SNAP_NAME
